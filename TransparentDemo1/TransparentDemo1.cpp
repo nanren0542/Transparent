@@ -110,6 +110,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    hWnd = CreateWindow(szWindowClass, szTitle, WS_SYSMENU|WS_THICKFRAME,
       CW_USEDEFAULT, 0, 640, 480, NULL, NULL, hInstance, NULL);
 
+#if 0
    DWORD dwExStyle=GetWindowLong(hWnd, GWL_EXSTYLE);
    ::SetWindowLong(hWnd, GWL_EXSTYLE, dwExStyle|WS_EX_LAYERED);
    SetLayeredWindowAttributes(hWnd, 0xffffff, 1, LWA_COLORKEY);
@@ -117,6 +118,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    {
       return FALSE;
    }
+#endif
 
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
