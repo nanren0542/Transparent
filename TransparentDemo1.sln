@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TransparentDemo1", "TransparentDemo1\TransparentDemo1.vcxproj", "{EAE592C6-F339-4AB7-A4A6-3B086268D22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAE592C6-F339-4AB7-A4A6-3B086268D22A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAE592C6-F339-4AB7-A4A6-3B086268D22A}.Debug|Win32.Build.0 = Debug|Win32
+		{EAE592C6-F339-4AB7-A4A6-3B086268D22A}.Release|Win32.ActiveCfg = Release|Win32
+		{EAE592C6-F339-4AB7-A4A6-3B086268D22A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {154D622C-BF44-4734-8FDF-029A862B72B2}
+	EndGlobalSection
+EndGlobal
