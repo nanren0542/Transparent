@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "TransparentDemo1.h"
+#include <math.h>
 
 #define MAX_LOADSTRING 100
 
